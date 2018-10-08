@@ -1,6 +1,6 @@
 # FantasyML
 
-This is a toy project to learn Swift & CreateML. It scrapes historical football player data and uses CreateML to train a model to predict fantasy football scores. See https://www.kunalmodi.me/activity/predicting-fantasy-football-scores-using-swift--createml for more. 
+This is a toy project to learn Swift & CreateML. It scrapes historical football player data and uses CreateML to train a model to predict fantasy football scores. See https://www.kunalmodi.me/activity/predicting-fantasy-football-scores-using-swift--createml for more info.
 
 To use:
 ```
