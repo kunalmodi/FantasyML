@@ -176,12 +176,8 @@ class Preparer {
     private func addTeam(rows: [strucutred_row]) {
         var teams = Set<String>()
         rows.forEach { (r: strucutred_row) in
-            if !teams.contains(r.get(name: "Team")) {
-                teams.insert(r.get(name: "Team"))
-            }
-            if !teams.contains(r.get(name: "Opp")) {
-                teams.insert(r.get(name: "Opp"))
-            }
+            teams.insert(r.get(name: "Team"))
+            teams.insert(r.get(name: "Opp"))
         }
 
         let sortedTeams = teams.sorted()
